@@ -20,3 +20,10 @@ print(myvar2)
 # my var = "John"
 
 # # #This example will produce an error in the result
+
+x, y, z = "Orange", "Banana", "Cherry"
+
+print(x)
+print(y)
+print(z)
+
