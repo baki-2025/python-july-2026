@@ -48,3 +48,35 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+#output variables
+#1
+x = "Python is awesome"
+print(x)
+
+#2
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+#3
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+#For numbers, the + character works as a mathematical operator:
+x = 5
+y = 10
+print(x + y)
+
+#In the print() function, when you try to combine a string and a number with the + operator, Python will give you an error:
+x = 5
+y = "John"
+print(x + y)
+#The best way to output multiple variables in the print() function is to separate them with commas, which even support different data types:
+x = 5
+y = "John"
+print(x, y)
+
